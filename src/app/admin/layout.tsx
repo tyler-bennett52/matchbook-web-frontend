@@ -93,6 +93,11 @@ export default async function AdminLayout({
       icon: "Bell",
     },
     {
+      title: "Fixes",
+      url: "/admin/fixes",
+      icon: "Settings",
+    },
+    {
       title: "Referrals",
       url: "/admin/referrals",
       icon: "Gift",
