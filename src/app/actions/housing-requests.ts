@@ -306,7 +306,7 @@ export const createDbHousingRequest = async (trip: TripAndMatches, listing: List
         dateRange: dateRange
       }
     } as CreateNotificationInput;
-    createNotification(notificationData)
+    await createNotification(notificationData)
 
     return newHousingRequest;
   } catch (error) {
